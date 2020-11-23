@@ -1,0 +1,14 @@
+jdbc_console
+
+Ho creato un progetto Java CRUD JDBC che funziona sulla console in questo notepad spiegherò l'utilizzo dei altri file contenuti nel progetto.
+
+Main.java è la pagina principale dove si possono gestire i valori del mysql db
+db.properties = Si possono modificare i dati del server nel file properties, per modificare il nome del database basta sostituire "sys" senza apici
+DBConnection.java = è la connessione al server mysql
+
+**** CRUD ****
+JDBC_Add = questa pagina serve per aggiungere dei nuovi valori
+JDBC_Delete = elimina un valore
+JDBC_Select = ricerca un valore
+JDBC_Update = modifica un valore
+JDBC_ViewAll = mostra tutti i valori 
